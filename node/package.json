@@ -1,0 +1,15 @@
+{
+  "name": "one-percent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx sass --watch --style expanded /node/sass/style.scss /wordpress/${WORDPRES_THEME_NAME}/assets/css/bootstrap.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.83.0"
+  }
+}

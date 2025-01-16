@@ -1,0 +1,5 @@
+.env
+**/.DS_Store
+wordpress/wp-content/themes/twenty**/
+wordpress/wp-content/uploads/
+node_modules
