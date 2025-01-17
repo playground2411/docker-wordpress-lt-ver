@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div id="content_wrapper" class="container-fluid py-5">
   <div class="row">
-    <div class="col-12 col-lg-2 offset-lg-1 px-lg-4">
+    <div class="col-12 col-lg-2 offset-lg-1 px-lg-4 d-none d-lg-block">
       <div class="d-flex align-items-center min-vh-70" style="position: sticky;top: 50px;">
         <div class="text-center">
           <img
