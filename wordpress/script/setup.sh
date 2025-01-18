@@ -34,6 +34,17 @@ wp post create \
 --post_date="$(TZ='Asia/Tokyo' date +'%Y-%m-%d %H:%M:%S')" \
 --allow-root
 
+# Dockerに関するカテゴリと記事を作成
+wp post create \
+--post_type=post --post_title='Dockerをコードベースで知る' \
+--post_content="$(/script/LT_post_content_docker.sh)" \
+--post_excerpt="記事の抜粋だよ！！" \
+--post_status='publish' \
+--post_category='extra' \
+--tags_input='sample_tag' \
+--post_date="$(TZ='Asia/Tokyo' date +'%Y-%m-%d %H:%M:%S')" \
+--allow-root
+
 
 # テーマの有効化
 wp theme activate $WORDPRES_THEME_NAME --allow-root
