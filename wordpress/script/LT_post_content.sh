@@ -83,24 +83,24 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li>安全で: 手元で動かすのは偽物なので、開発中にサイトを壊しても大丈夫！<br><strong>（セーブポイントとリセットボタンがあるみたい！）</strong></li>
+<li>安全で: 開発中にサイトをぶっ壊せる！</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>柔軟で: プラグインやWPのアップデート時の検証に強い。</li>
+<li>柔軟で: プラグインやWPアップデートに強い。</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>可読で: コードレビューができるので責任回避できる！</li>
+<li>可読で: コードレビューができるようになる！</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>共有な: コマンドをいくつか打つと全員が同じWPサイトをすぐに見れる。</li>
+<li>共有な: メンバー全員がデータ入りのWPサイトをすぐに見れる。</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p><strong>とりあえず、「顎関節症」になることはなくなるはず！</strong>（共有環境での作業より）</p>
+<p><strong>とりあえず、「顎関節症」になることはなくなる ... はず！</strong>（共有環境での作業より）</p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -139,7 +139,7 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 <div>
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Get Started!!</h2>
+<h2 class="wp-block-heading">さあ、やってみよう！</h2>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
@@ -150,24 +150,32 @@ $ docker compose up -d</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>Localhostにアクセス（言語選択画面が表示される）<br><a href="http://localhost:8002" target="_blank" rel="noreferrer noopener">http://localhost:8002</a></p>
+<p>Localhostにアクセス（言語選択画面が表示される）<br><a noopener="" href="http://localhost:8002" target="_blank" rel="noreferrer">http://localhost:8002</a>（LTでは8002ポートを使ってるので、8003を使う）</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>-- ここまでで、Dockerを使ったWPサイト構築は完了 --</p>
+<p></p>
+<!-- /wp:paragraph -->
+
+</div>
+</div>
+<div class=min-vh-100 d-flex align-items-center>
+<div>
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">え？もっと簡単にしたい？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>WPの色々設定用のスクリプト（WP-CLIを使うよ）</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>$ docker compose exec wordpress bash /script/setup.sh
-# WPの色々設定用のスクリプト（WP-CLI）</code></pre>
+<pre class="wp-block-code"><code>$ docker compose exec wordpress bash /script/setup.sh</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>Localhostにアクセス（設定後の画面が表示される）<br><a href="http://localhost:8002" target="_blank" rel="noreferrer noopener">http://localhost:8002</a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><strong>必要なものは「Docker Desktop」だけ。</strong></p>
+<p>Localhostにアクセス（設定後の画面が表示される）<br><a href="http://localhost:8002" target="_blank" rel="noreferrer" noopener="">http://localhost:8002</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -184,7 +192,11 @@ $ docker compose up -d</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>上の手順も含めて詳細とコードを、Githubでリポジトリを公開しています。<br>上と同じように5つコマンドを打てば今見ているサイトをお手元で再現できます。<br><a noopener="" href="https://github.com/playground2411/docker-wordpress-lt-ver" target="_blank" rel="noreferrer">https://github.com/playground2411/docker-wordpress-lt-ver</a></p>
+<p>上の手順も含めて詳細とコードを、Githubでリポジトリを公開しています。<br>上と同じように5つコマンドを打てば今見ているサイトをお手元で再現できます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://github.com/playground2411/docker-wordpress-lt-ver" target="_blank" rel="noreferrer noopener">https://github.com/playground2411/docker-wordpress-lt-ver</a></p>
 <!-- /wp:paragraph -->
 
 </div>
