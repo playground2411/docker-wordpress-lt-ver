@@ -41,25 +41,21 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 <h2 class="wp-block-heading">このLTはこんな人のために。</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p><strong>「WPサイト開発ってなんか怖いなあ…」と思ったことのある人へ。</strong></p>
-<!-- /wp:paragraph -->
-
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li>FTPで直接サーバーを触ってる？</li>
+<li>FTPで直接サーバーを触るから他メンバーと作業がバッティング...</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>他メンバーと作業がバッティングしてサイトがおかしくなる？</li>
+<li>エラーを１つ解消したら他でエラーに...</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>エラーを１つ解消したら他でエラーになる？</li>
+<li>毎日投稿や固定ページのデータをいちいち作るのが億劫...</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>毎日投稿や固定ページのデータをいちいち作るのが億劫？</li>
+<li>コードレビューがないからデプロイが怖い...</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -78,7 +74,7 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>「高精度な”偽物”を使うと、安全に速くチームで作れるようになる。」</strong></p>
+<p><strong>「”本物っぽい偽物”を使うと、安全に素早いチーム開発ができるようになる」</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
@@ -118,15 +114,11 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>「DockerとWP-CLIを使って、コマンドでWPサイトを作る。」</strong></p>
+<p><strong>「Dockerを使ってWPサイトを作る。」</strong></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「コードとコマンドで作る」っていういにしえの開発手法を現代風にアレンジして見ました。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>（でも受託開発だと... まだまだコードベースで作ってる...よね？）</p>
+<p>「コードとコマンドで作る」いにしえの開発手法をいい感じに現代化！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -139,7 +131,7 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 <div>
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">さあ、やってみよう！</h2>
+<h2 class="wp-block-heading">1分でWPサイトチャレンジ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
@@ -163,7 +155,7 @@ $ docker compose up -d</code></pre>
 <div>
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">え？もっと簡単にしたい？</h2>
+<h2 class="wp-block-heading">え？もっと楽したい？</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -188,11 +180,32 @@ $ docker compose up -d</code></pre>
 <div>
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Githubで公開してるよ</h2>
+<h2 class="wp-block-heading">コードで管理する魅力。</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>上の手順も含めて詳細とコードを、Githubでリポジトリを公開しています。<br>上と同じように5つコマンドを打てば今見ているサイトをお手元で再現できます。</p>
+<p>開発環境の共有、自動化、バージョンアップ検証、API連携...etc<br>コードだからこその魅力がある！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>特に、柔軟な変更が求められるような環境ではね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+</div>
+</div>
+<div class=min-vh-100 d-flex align-items-center>
+<div>
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Githubで公開中</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>今見ているこのサイト、Githubで公開しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -227,7 +240,7 @@ $ docker compose up -d</code></pre>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>モダンJSなフロントエンドを導入</li>
+<li>モダンJSなフロントエンドの導入</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
@@ -236,6 +249,14 @@ $ docker compose up -d</code></pre>
 
 <!-- wp:list-item -->
 <li>Headless CMS</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>node.js</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Ruby on Rails</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
