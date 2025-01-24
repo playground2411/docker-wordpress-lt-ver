@@ -4,7 +4,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Pattaya&display=swap");
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -12849,13 +12849,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  font-family: "Noto Sans JP", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
 #single_content img {
   margin: 10px 0 !important;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.0392156863);
@@ -12868,10 +12861,17 @@ body {
   margin-top: 10px;
 }
 
+.pattaya-regular {
+  font-family: "Pattaya", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   font-size: 1rem;
   line-height: 1.8;
   word-break: break-all;
+  font-family: "Noto Sans JP", serif;
 }
 
 pre {
