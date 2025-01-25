@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section>
   <div class="container-fluid"
-  style="background: linear-gradient(rgba(0, 0, 0, .6),  rgba(0, 0, 0, .6)), url('<?php echo get_template_directory_uri() . '/assets/images/thumbnail.png';?>');
+  style="background: linear-gradient(rgba(0, 0, 0, .6),  rgba(0, 0, 0, .6)), url('<?php echo get_template_directory_uri() . '/assets/images/thumbnail.jpg';?>');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;">
