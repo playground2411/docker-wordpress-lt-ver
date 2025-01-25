@@ -56,6 +56,10 @@ echo "<div class=min-vh-100 d-flex align-items-center>
 
 <!-- wp:list-item -->
 <li>コードレビューがないからデプロイが怖い...</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>既存テーマでは対応できないようなデザイン...</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
@@ -142,7 +146,7 @@ $ docker compose up -d</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>Localhostにアクセス（言語選択画面が表示される）<br><a noopener="" href="http://localhost:8002" target="_blank" rel="noreferrer">http://localhost:8002</a>（LTでは8002ポートを使ってるので、8003を使う）</p>
+<p>Localhostにアクセス（言語選択画面が表示される）<br><a noopener="href=http://localhost:8002" target="_blank" rel="noreferrer">http://localhost:8002</a>（LTでは8002ポートを使ってるので、8003を使う）</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -183,13 +187,15 @@ $ docker compose up -d</code></pre>
 <h2 class="wp-block-heading">コードで管理する魅力。</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>開発環境の共有、自動化、バージョンアップ検証、API連携...etc<br>コードだからこその魅力がある！</p>
-<!-- /wp:paragraph -->
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Dockerだと他の技術を簡単にWordpressにMIXできるよ！<br>React, Next.js, typescript, Node.js, Rails, Python ...etc</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>特に、柔軟な変更が求められるような環境ではね。</p>
-<!-- /wp:paragraph -->
+<!-- wp:list-item -->
+<li>お客さんに共有するためにサーバー作ったりしなくて良いよ！<br>Dockerでコンテナを立てたり消したり１分くらいでできるよ。</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
 
 <!-- wp:paragraph -->
 <p></p>
@@ -209,7 +215,7 @@ $ docker compose up -d</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="https://github.com/playground2411/docker-wordpress-lt-ver" target="_blank" rel="noreferrer noopener">https://github.com/playground2411/docker-wordpress-lt-ver</a></p>
+<p><a href=https://github.com/playground2411/docker-wordpress-lt-ver target=_blank rel=noreferrer noopener>https://github.com/playground2411/docker-wordpress-lt-ver</a></p>
 <!-- /wp:paragraph -->
 
 </div>
