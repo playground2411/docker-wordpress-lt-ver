@@ -146,7 +146,7 @@ $ docker compose up -d</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>Localhostにアクセス（言語選択画面が表示される）<br><a noopener="href=http://localhost:8002" target="_blank" rel="noreferrer">http://localhost:8002</a>（LTでは8002ポートを使ってるので、8003を使う）</p>
+<p>Localhostにアクセス（言語選択画面が表示される）<br><a noopener=href=http://localhost:8002 target=_blank rel=noreferrer>http://localhost:8002</a>（LTでは8002ポートを使ってるので、8003を使う）</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -171,7 +171,7 @@ $ docker compose up -d</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
-<p>Localhostにアクセス（設定後の画面が表示される）<br><a href="http://localhost:8002" target="_blank" rel="noreferrer" noopener="">http://localhost:8002</a></p>
+<p>Localhostにアクセス（設定後の画面が表示される）<br><a href=http://localhost:8002 target=_blank rel=noreferrer noopener=>http://localhost:8002</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -187,14 +187,15 @@ $ docker compose up -d</code></pre>
 <h2 class="wp-block-heading">コードで管理する魅力。</h2>
 <!-- /wp:heading -->
 
-<!-- wp:list {"ordered":true} -->
-<ol class="wp-block-list"><!-- wp:list-item -->
+<!-- wp:list -->
+<ol class=wp-block-list>
+<!-- wp:list-item -->
 <li>Dockerだと他の技術を簡単にWordpressにMIXできるよ！<br>React, Next.js, typescript, Node.js, Rails, Python ...etc</li>
 <!-- /wp:list-item -->
-
 <!-- wp:list-item -->
 <li>お客さんに共有するためにサーバー作ったりしなくて良いよ！<br>Dockerでコンテナを立てたり消したり１分くらいでできるよ。</li>
-<!-- /wp:list-item --></ol>
+<!-- /wp:list-item -->
+</ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -276,21 +277,21 @@ $ docker compose up -d</code></pre>
 <div>
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">その他個人的なこだわり（時間が余ったら）</h2>
+<h2 class="wp-block-heading">今後やりたいこと</h2>
 <!-- /wp:heading -->
 
-<!-- wp:list -->
-<ul class="wp-block-list"><!-- wp:list-item -->
-<li>デプロイはGithubCIで自動化しています。<br>（ファイルをドラッグしてデプロイするなんて怖すぎてできない）</li>
+<!-- wp:paragraph -->
+<p>Railsで作ったサイトに記事を投稿すると...</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>インスタグラムに翌日投稿される（instagram Basic API）</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>実はnodeコンテナを使ってsassを導入しています。<br>（BootstrapをSASSで編集したかった...）</li>
-<!-- /wp:list-item -->
-
-<!-- wp:list-item -->
-<li>XserverVPSをメインで使ってます<br>（持ってるMacが非力すぎてDockerが動かなかった）</li>
-<!-- /wp:list-item --></ul>
+<li>wordpressサイトに投稿される（WP-CLI）</li>
+<!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 </div>
